@@ -1,0 +1,37 @@
+body {
+    margin: 25px;
+    padding: 0;
+    background-color: #fbf9f7;
+}
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.contenedor-formulario .imagen {
+    width: 50%;
+    height: 100vh;
+}
+
+.contenedor-formulario .formulario {
+    width: 50%;
+    height: 100vh;
+}
+
+.contenedor-formulario .formulario form {
+    width: 80%;
+    height: 100vh;
+    margin-left: 50px;
+
+}
+
+.formulario input{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-top: 15px;;
+}
+
