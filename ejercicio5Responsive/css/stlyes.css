@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: paleturquoise;
+}
+
+header{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: auto; /*Para que el ancho de la barra ocupe el ancho de la pantalla*/
+}
+
+nav{
+    background-color: rebeccapurple;
+    padding: 10px;
+}
+
+nav h2{
+    margin: 0;
+    font-size: 16px;
+}
+
+.container-body{
+    width: auto;
+    justify-content: center;
+    align-items: center; /*alinear los elementos*/
+    margin-top: 5%;
+}
+
+.content-body{
+    display: flex;
+    height: 100vh;/*view height hace referencia a la altura del dispositivo,
+    entonces se va a ajustar a al altura de ese dispositivo*/
+    flex-direction: column;/*se van acoplando en forma de una sola columnas, uno debajo del otro*/
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.div-example{
+    margin: 10px;
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 30%;
+}
+
+footer{
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /*fija el pie de pagina en la parte inferior de la pantalla*/
+    bottom: 0; /*que se muestre siempre desde el inicio de la pagina y a medida que va bajando*/
+    width: 100%;
+}
+
+/*Media query para tablets*/
+@media(min-width: 768px){
+    .container-body{
+        justify-content: space-around;
+        margin-top: 5%;
+    }    
+    .content-body{
+        margin-bottom: 10%;
+        flex-direction: row;
+        flex-wrap: wrap;/*Permite que los elementos se organicen de acuerdo al ancho de la pantalla*/
+        justify-content: center;
+        gap: 20px;/*Dar espacio entre elementos en la tabla*/
+    }
+    .div-example{
+        width: 40%;
+        height: 30%;
+    }
+}
+
+/*Media query para desktop*/
+@media (min-width:1023px){
+    .container-body{
+        height: auto;
+    }    
+    .content-body{
+        margin-bottom: 10%;
+        justify-content: center;
+        gap: 50px;/*Dar espacio entre elementos en la tabla*/
+    }
+    .div-example{
+        width: 35%;
+        height: 40%;
+    }
+}
+
+

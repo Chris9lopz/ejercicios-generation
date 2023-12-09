@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 1px solid black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav img{
+    width: 300px;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: large;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
