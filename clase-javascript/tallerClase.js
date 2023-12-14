@@ -1,6 +1,6 @@
 //1.) Accede a las propiedades de un objeto que tenga: nombre, apellido, fecha de nacimiento y  
 //cedula de ciudadania que imprima un mensaje.
-
+//push de pao
 let persona = {
     nombre: "Christian",
     apellido: "Lopez",
