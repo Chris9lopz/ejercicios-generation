@@ -49,3 +49,21 @@ if(regex.test(correo)){
 } else {
     console.log("Correo invalido")
 }
+
+/*esto es tremenda linea de codigo
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+
+a
+
+actuala
+a
+a*/
