@@ -13,7 +13,7 @@ console.log("Nombre: " + persona.nombre + "\nApellido: " + persona.apellido + "\
 for(let propiedad in persona) {
     console.log(propiedad + ": " + persona[propiedad]);	
 }
-
+// Esto es un conflicto
 //2.) Asigna un valor nulo e imprime un mensaje.
 
 let valorNulo = null;
