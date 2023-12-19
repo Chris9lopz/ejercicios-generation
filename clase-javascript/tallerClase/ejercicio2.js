@@ -18,8 +18,6 @@ function esPrimo(n) {
 	}
 }
 
-console.log(esPrimo(15));
-
 function primerNP(indice) {
 	let numero = [];
 	let contador = 1;
